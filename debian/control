@@ -1,0 +1,25 @@
+Source: xdg-utils-cxx
+Rules-Requires-Root: no
+Priority: optional
+Maintainer: Scarlett Moore <sgmoore@kde.org>
+Build-Depends: cmake, debhelper (>= 12), googletest, libgtest-dev, pkg-config
+Standards-Version: 4.4.0.1
+Section: devel
+Homepage: https://github.com/azubieta/xdg-utils-cxx
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/3rdparty/xdg-utils-cxx
+Vcs-Git: https://salsa.debian.org/qt-kde-team/3rdparty/xdg-utils-cxx
+
+Package: xdg-utils-cxx
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Implementation of the Free Desktop Standards in C++
+ This is a project was started to fulfill the need of a reliable
+ implementations of such standards in the AppImage project.
+ It is totally standalone and only depends on
+ the standard c++ libraries (stdlib).
+ .
+ It has been split in different modules according to the
+ Free Desktop Standards, currently are implemented:
+    - Desktop Entry 1.2 (mostly complete)
+    - Base Dir 0.7 (draft)

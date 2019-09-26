@@ -1,0 +1,5 @@
+xdg-utils-cxx (1.0.1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #934253)
+
+ -- Scarlett Moore <sgmoore@kde.org>  Thu, 08 Aug 2019 11:23:50 -0700
