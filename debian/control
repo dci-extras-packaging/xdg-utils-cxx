@@ -14,12 +14,12 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Implementation of the Free Desktop Standards in C++
- This is a project was started to fulfill the need of a reliable
+ This project was started to fulfill the need of a reliable
  implementations of such standards in the AppImage project.
  It is totally standalone and only depends on
- the standard c++ libraries (stdlib).
+ the standard c++ library (stdlib).
  .
  It has been split in different modules according to the
- Free Desktop Standards, currently are implemented:
+ Free Desktop Standards, the current implemented ones are:
     - Desktop Entry 1.2 (mostly complete)
     - Base Dir 0.7 (draft)
