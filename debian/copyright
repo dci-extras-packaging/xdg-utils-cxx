@@ -25,7 +25,7 @@ License: MIT
 
 Files: debian/*
 Copyright: 2019, Scarlett Moore <sgmoore@kde.org>
-License: GPL-2+
+License: MIT
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
