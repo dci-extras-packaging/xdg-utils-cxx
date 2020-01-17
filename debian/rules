@@ -8,11 +8,8 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 	dh $@ --buildsystem cmake
 
 override_dh_auto_configure:
-	#Finding source Epiccally fails in neon tooling, so cd back into source and use builddirectory
-	#do not put in debian...
-	cd ../
-	dh_auto_configure --builddirectory=build -- -DXDG_UTILS_SHARED=ON -DXDG_UTILS_TESTS=ON \
-	-DGTEST_ROOT=/usr/src/googletest
+	dh_auto_configure -- -DXDG_UTILS_SHARED=ON -DXDG_UTILS_TESTS=ON \
+	-DGTEST_ROOT=/usr/src/googletest -DCMAKE_BUILD_TYPE=Release ../
 
 override_dh_missing:
 	dh_missing --fail-missing
