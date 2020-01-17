@@ -8,8 +8,9 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 	dh $@ --buildsystem cmake
 
 override_dh_auto_configure:
+	echo $(pwd)
 	dh_auto_configure -- -DXDG_UTILS_SHARED=ON -DXDG_UTILS_TESTS=ON \
-	-DGTEST_ROOT=/usr/src/googletest -DCMAKE_BUILD_TYPE=Release $(CURDIR)/../
+	-DGTEST_ROOT=/usr/src/googletest -DCMAKE_BUILD_TYPE=Release
 
 override_dh_missing:
 	dh_missing --fail-missing
