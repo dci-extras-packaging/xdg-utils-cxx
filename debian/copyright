@@ -3,7 +3,7 @@ Upstream-Name: xdg-utils-cxx
 Source: https://github.com/azubieta/xdg-utils-cxx
 
 Files: *
-Copyright: 2018-2019, Alexis López Zubieta
+Copyright: 2018-2019 Alexis López Zubieta
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ License: MIT
  SOFTWARE.
 
 Files: debian/*
-Copyright: 2019, Scarlett Moore <sgmoore@kde.org>
+Copyright: 2019-2020 Scarlett Moore <sgmoore@kde.org>
 License: MIT
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
