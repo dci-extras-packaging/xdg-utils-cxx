@@ -2,7 +2,7 @@ Source: xdg-utils-cxx
 Rules-Requires-Root: no
 Priority: optional
 Maintainer: Scarlett Moore <sgmoore@kde.org>
-Build-Depends: cmake, debhelper (>= 12), googletest, libgtest-dev, pkg-config
+Build-Depends: cmake, debhelper-compat (= 12), googletest, libgtest-dev, pkg-config
 Standards-Version: 4.4.0.1
 Section: devel
 Homepage: https://github.com/azubieta/xdg-utils-cxx
