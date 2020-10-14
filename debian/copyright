@@ -1,5 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: xdg-utils-cxx
+Upstream-Contact: https://github.com/azubieta
 Source: https://github.com/azubieta/xdg-utils-cxx
 
 Files: *
