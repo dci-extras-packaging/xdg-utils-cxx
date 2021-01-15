@@ -1,5 +1,14 @@
+xdg-utils-cxx (1.0.1-2) unstable; urgency=medium
+
+  * Update copyright with missing entry.
+    Refresh formatting.
+  * Release to unstable.
+
+ -- Scarlett Moore <scarlett@scarlett-netrunner-desktop>  Fri, 15 Jan 2021 15:31:56 -0700
+
 xdg-utils-cxx (1.0.1-1) unstable; urgency=medium
 
+  [ Scarlett Moore ]
   * Initial release (Closes: #934253)
 
- -- Scarlett Moore <sgmoore@kde.org>  Sun, 19 Jan 2020 15:58:43 -0700
+ -- Scarlett Moore <sgmoore@kde.org>  Wed, 13 Jan 2021 14:35:26 -0700
