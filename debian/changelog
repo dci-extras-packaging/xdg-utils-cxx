@@ -2,6 +2,7 @@ xdg-utils-cxx (1.0.1-2) UNRELEASED; urgency=medium
 
   * Update copyright with missing entry.
     Refresh formatting.
+  * Update standards version to 4.5.1; no changes needed.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 15 Jan 2021 15:29:25 -0700
 
