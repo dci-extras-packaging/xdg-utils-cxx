@@ -2,9 +2,17 @@ xdg-utils-cxx (1.0.1-2) unstable; urgency=medium
 
   * Update copyright with missing entry.
     Refresh formatting.
+<<<<<<< HEAD
   * Release to unstable.
 
  -- Scarlett Moore <scarlett@scarlett-netrunner-desktop>  Fri, 15 Jan 2021 15:31:56 -0700
+=======
+  * Update standards version to 4.5.1; no changes needed.
+  * Add upstream patch to fix typo. (lintain)
+  * Release to unstable.
+
+ -- Scarlett Moore <sgmoore@kde.org>  Tue, 19 Jan 2021 10:08:38 -0700
+>>>>>>> debianmain/master
 
 xdg-utils-cxx (1.0.1-1) unstable; urgency=medium
 

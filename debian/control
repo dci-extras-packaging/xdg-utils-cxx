@@ -6,7 +6,11 @@ Build-Depends: cmake,
                googletest,
                libgtest-dev,
                pkg-config,
+<<<<<<< HEAD
 Standards-Version: 4.5.0
+=======
+Standards-Version: 4.5.1
+>>>>>>> debianmain/master
 Section: devel
 Homepage: https://github.com/azubieta/xdg-utils-cxx
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/3rdparty/xdg-utils-cxx
