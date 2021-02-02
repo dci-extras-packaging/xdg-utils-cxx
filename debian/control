@@ -2,7 +2,7 @@ Source: xdg-utils-cxx
 Priority: optional
 Maintainer: Scarlett Moore <sgmoore@kde.org>
 Build-Depends: cmake,
-               debhelper-compat (= 13),
+               debhelper-compat (= 12),
                googletest,
                libgtest-dev,
                pkg-config,
