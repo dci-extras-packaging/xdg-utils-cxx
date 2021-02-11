@@ -6,7 +6,6 @@ Build-Depends: cmake,
                debhelper-compat (= 13),
                googletest,
                libgtest-dev,
-               pkg-config,
 Standards-Version: 4.5.1
 Homepage: https://github.com/azubieta/xdg-utils-cxx
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/3rdparty/xdg-utils-cxx
