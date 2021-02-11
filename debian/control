@@ -82,4 +82,3 @@ Section: oldlibs
 Description: Core libraries BaseDir and DesktopEntry
  for xdg-utils-cxx - transitional
  This is a dummy transitional package which can be removed
- 
