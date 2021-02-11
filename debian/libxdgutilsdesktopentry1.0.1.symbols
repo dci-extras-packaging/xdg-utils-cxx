@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 1.0.1 amd64
-libXdgUtilsDesktopEntry.so.1.0.1 libxdgutilsdesktopentry1 #MINVER#
+libXdgUtilsDesktopEntry.so.1.0.1 libxdgutilsdesktopentry1.0.1 #MINVER#
 * Build-Depends-Package: xdg-utils-cxx-dev
  _ZN8XdgUtils12DesktopEntry10ParseErrorD0Ev@Base 1.0.1
  _ZN8XdgUtils12DesktopEntry10ParseErrorD1Ev@Base 1.0.1
