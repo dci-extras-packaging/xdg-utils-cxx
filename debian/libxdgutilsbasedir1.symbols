@@ -1,0 +1,7 @@
+# SymbolsHelper-Confirmed: 1.0.1 amd64
+libXdgUtilsBaseDir.so.1.0.1 libxdgutilsbasedir1 #MINVER#
+* Build-Depends-Package: xdg-utils-cxx-dev
+ _ZN8XdgUtils7BaseDir11XdgDataHomeB5cxx11Ev@Base 1.0.1
+ _ZN8XdgUtils7BaseDir12XdgCacheHomeB5cxx11Ev@Base 1.0.1
+ _ZN8XdgUtils7BaseDir13XdgConfigHomeB5cxx11Ev@Base 1.0.1
+ _ZN8XdgUtils7BaseDir4HomeB5cxx11Ev@Base 1.0.1
