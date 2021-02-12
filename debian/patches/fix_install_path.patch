@@ -6,18 +6,17 @@ Description: Ease consumers using this library by installing the libs
 in a standard location.
 Applied-Upstream: https://github.com/azubieta/xdg-utils-cxx/pull/17
 
- root@79131fc541cf:/libappimage/xdg-utils-cxx-1.0.1# cat debian/patches/fix-install-path.patch
- Index: xdg-utils-cxx-1.0.1/src/CMakeLists.txt
- ===================================================================
- --- xdg-utils-cxx-1.0.1.orig/src/CMakeLists.txt
- +++ xdg-utils-cxx-1.0.1/src/CMakeLists.txt
- @@ -3,7 +3,7 @@ set(PROJECT_INCLUDEDIR ${PROJECT_SOURCE_
-
+root@79131fc541cf:/libappimage/xdg-utils-cxx-1.0.1# cat debian/patches/fix-install-path.patch
+Index: xdg-utils-cxx-1.0.1/src/CMakeLists.txt
+===================================================================
+--- xdg-utils-cxx-1.0.1.orig/src/CMakeLists.txt
++++ xdg-utils-cxx-1.0.1/src/CMakeLists.txt
+@@ -3,7 +3,7 @@ set(PROJECT_INCLUDEDIR ${PROJECT_SOURCE_
   # Install variables
-  set(PROJECT_INSTALL_INCLUDEDIR ${CMAKE_INSTALL_INCLUDEDIR}/XdgUtils)
- -set(PROJECT_INSTALL_LIBDIR ${CMAKE_INSTALL_LIBDIR}/XdgUtils)
- +set(PROJECT_INSTALL_LIBDIR ${CMAKE_INSTALL_LIBDIR})
-  set(PROJECT_INSTALL_CMAKEDIR ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME})
+ set(PROJECT_INSTALL_INCLUDEDIR ${CMAKE_INSTALL_INCLUDEDIR}/XdgUtils)
+-set(PROJECT_INSTALL_LIBDIR ${CMAKE_INSTALL_LIBDIR}/XdgUtils)
++set(PROJECT_INSTALL_LIBDIR ${CMAKE_INSTALL_LIBDIR})
+ set(PROJECT_INSTALL_CMAKEDIR ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME})
 
-  set(PROJECT_COMPONENT ${PROJECT_NAME})
+ set(PROJECT_COMPONENT ${PROJECT_NAME})
 
