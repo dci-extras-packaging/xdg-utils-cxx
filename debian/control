@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Scarlett Moore <sgmoore@kde.org>
 Build-Depends:
  cmake,
- debhelper-compat (>= 12),
+ debhelper-compat (= 12),
  googletest,
  libgtest-dev,
  pkg-kde-tools,
