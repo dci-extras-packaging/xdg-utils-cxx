@@ -30,6 +30,4 @@ index 2e7fe19..a615aa9 100644
 +        VERSION ${PROJECT_VERSION}
      )
  endfunction()
-     
-
-
+ 
