@@ -1,16 +1,9 @@
 #!/usr/bin/make -f
 
-export DEB_BUILD_MAINT_OPTIONS=hardening=+all
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-	dh $@
+	dh $@ --with pkgkde-symbolshelper
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DXDG_UTILS_SHARED=ON -DXDG_UTILS_TESTS=ON \
-	-DGTEST_ROOT=/usr/src/googletest -DCMAKE_BUILD_TYPE=Release
-
-override_dh_missing:
-	dh_missing --fail-missing
-
-override_dh_makeshlibs:
-	dh_makeshlibs -VUpstream-Version
+	dh_auto_configure -- -DXDG_UTILS_SHARED=ON -DXDG_UTILS_TESTS=ON -DGTEST_ROOT=/usr/src/googletest -DCMAKE_BUILD_TYPE=Release
