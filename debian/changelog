@@ -2,22 +2,21 @@ xdg-utils-cxx (1.0.1-3) UNRELEASED; urgency=medium
 
   * Add patches provided by Assassin to fix issues with targets and
     upstream uses of this library.
-   - Fix the SO version.
-   - Fix the install path to be in a searched lib path.
-   - Clean up patches and make them DEP 3 compliant.
+    - Fix the SO version.
+    - Fix the install path to be in a searched lib path.
+    - Clean up patches and make them DEP 3 compliant.
   * Convert package to libraries and dev packages for symbols
     handling.
-   - Break package into libraries and dev packages with
-   virtual package for old package.
-   - Use pkg-kde-tools for easier symbols handling.
-   - Add new symbols files for libraries.
+    - Break package into libraries and dev packages with
+      virtual package for old package.
+    - Use pkg-kde-tools for easier symbols handling.
+    - Add new symbols files for libraries.
   * Remove unused dependency pkg-config.
   * Fix lintian errors.
-   - Rename packages to match SO version.
-   - Fix spelling error.
-   - Fix hardening export in rules.
-  * Remove dh_missing override as --fail-missing is now
-   default.
+    - Rename packages to match SO version.
+    - Fix spelling error.
+    - Fix hardening export in rules.
+  * Remove dh_missing override as --fail-missing is now default.
 
  -- Scarlett Moore <sgmoore@kde.org>  Mon, 08 Feb 2021 12:52:39 -0700
 
